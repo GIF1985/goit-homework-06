@@ -232,8 +232,6 @@ textarea {
   background-color: var(--logo-color);
   width: 169px;
   height: 56px;
-  left: 636px;
-  top: 428px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: none;
@@ -833,7 +831,7 @@ textarea {
 }
 
 .modal-group:not(:last-child) {
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 .modal-input {
@@ -873,6 +871,8 @@ textarea {
   border-radius: 4px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   padding: 10px 20px;
+
+  margin-bottom: 12px;
 }
 
 .modal-comments:focus {
@@ -893,7 +893,7 @@ textarea {
 .modal-form-agreement {
   display: flex;
   align-items: center;
-  margin-bottom: 16px;
+
   gap: 6px;
 }
 
@@ -915,6 +915,7 @@ textarea {
   opacity: 1;
 }
 .modal-form-agreement-text {
+  margin: 0;
   font-size: 12px;
   font-weight: 400;
   line-height: 1.2;
@@ -931,4 +932,8 @@ textarea {
   display: block;
   margin: 0 auto;
   margin-top: 24px;
+}
+
+.modal-form-btn:last-child {
+  margin-bottom: 0;
 }
