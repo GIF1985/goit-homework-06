@@ -670,6 +670,7 @@ textarea {
 }
 
 .overlay-text {
+  margin: 0;
   position: absolute;
   width: 296px;
   height: 96px;
