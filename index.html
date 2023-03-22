@@ -352,51 +352,62 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="container">
-        <div class="footer-box">
-          <a class="logo1" href="./index.html"
-          ><span class="web">Web</span>Studio</a
-        >
-        <p class="footer-text">
-          Increase the flow of customers and<br />
-          sales for your business with digital<br />
-          marketing & growth solutions.
-        </p>
-        </div>
-        <div class="footer-box">
-          <h3 class="section-subtitle footer-media">Social media</h3>
-            <ul class="footer-list">
-              <li class="footer-item">
-                <a class="footer-link" href="" target="_blank" >
-                  <svg class="icon-social" width="16" height="16">
-                    <use href="./images/icons.svg#icon-instagram" width="16px" height="16px"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="footer-item">
-                <a class="footer-link" href="" target="_blank" >
-                  <svg class="icon-social" width="16" height="16">
-                    <use href="./images/icons.svg#icon-twitter" width="16px" height="16px"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="footer-item">
-                <a class="footer-link" href="" target="_blank" >
-                  <svg class="icon-social" width="16" height="16">
-                    <use href="./images/icons.svg#icon-facebook" width="16px" height="16px"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="footer-item">
-                <a class="footer-link" href="" target="_blank" >
-                  <svg class="icon-social" width="16px" height="16px">
-                    <use href="./images/icons.svg#icon-linkedin" width="16px" height="16px"></use>
-                  </svg>
-                </a>
-              </li>
-            </ul>  
-          </div>
-      </div>
+            <div class="container">
+              <div class="footer-box">
+                <a class="logo1" href="./index.html"
+                ><span class="web">Web</span>Studio</a
+              >
+              <p class="footer-text">
+                Increase the flow of customers and<br />
+                sales for your business with digital<br />
+                marketing & growth solutions.
+              </p>
+              </div>
+              <div class="footer-box">
+                <h3 class="section-subtitle footer-media">Social media</h3>
+                  <ul class="footer-list">
+                    <li class="footer-item">
+                      <a class="footer-link" href="" target="_blank" >
+                        <svg class="icon-social" width="16" height="16">
+                          <use href="./images/icons.svg#icon-instagram" width="16px" height="16px"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="footer-item">
+                      <a class="footer-link" href="" target="_blank" >
+                        <svg class="icon-social" width="16" height="16">
+                          <use href="./images/icons.svg#icon-twitter" width="16px" height="16px"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="footer-item">
+                      <a class="footer-link" href="" target="_blank" >
+                        <svg class="icon-social" width="16" height="16">
+                          <use href="./images/icons.svg#icon-facebook" width="16px" height="16px"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="footer-item">
+                      <a class="footer-link" href="" target="_blank" >
+                        <svg class="icon-social" width="16px" height="16px">
+                          <use href="./images/icons.svg#icon-linkedin" width="16px" height="16px"></use>
+                        </svg>
+                      </a>
+                    </li>
+                  </ul>  
+              </div>
+              <div class="footer-subscribe">
+                <h3 class="section-subtitle footer-media">Subscribe</h3>
+                <form class="footer-form">
+                  <input class="footer-input"  type="email" placeholder="E-mail">
+                  <button class="hero-button btn-footer">Subscribe 
+                    <svg class="subscribe-icon" width="24" height="20">
+                      <use href="./images/icons.svg#icon-send"></use>
+                    </svg>
+                  </button>
+                </form>
+              </div>
+            </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
@@ -405,6 +416,60 @@
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
+        <form class="modal-form">
+          <p class="modal-strong">Leave your contacts and we will call you back</p>
+          <div class="modal-group">
+            <label class="modal-label" for="name">Name</label>
+            <div class="input-wrapper">
+              <input class="modal-input" type="text" id="name" />
+              <svg class="modal-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-man"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal-group">
+            <label class="modal-label" for="tel">Phone</label>
+            <div class="input-wrapper">
+              <input class="modal-input" type="tel" id="tel" />
+              <svg class="modal-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-tel"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal-group">
+            <label class="modal-label" for="email">Email</label>
+            <div class="input-wrapper">
+              <input class="modal-input" type="email" id="email" />
+              <svg class="modal-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal-group">
+            <label class="modal-label" for="comment">Comment</label>
+            <textarea
+              class="modal-comments"
+              name="comment"
+              id="comment"
+              rows="5"
+              placeholder="Text input"
+            ></textarea>
+          </div>
+           <label class="modal-form-agreement">
+            <input class="modal-form-checkbox visually-hidden" type="checkbox"/>
+              <svg class="modal-form-custom" width="16" height="16">
+                <use class="chekoff" href="./images/icons.svg#icon-propertyoff"></use>
+                <use class="chekon" href="./images/icons.svg#icon-propertyon"></use>
+              </svg>
+              <span class="modal-form-agreement-text">
+                I accept the terms and conditions of the 
+                <a class="modal-form-agreement-link" href="#">
+                  Privacy Policy
+                </a>
+              </span>
+           </label>
+          <button class="modal-form-btn hero-button" type="submit">Send</button>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
